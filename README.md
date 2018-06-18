@@ -1,4 +1,4 @@
-# SampleWebApplication
+# Sample Web Application
 Create a sample Web Application.  
 Goal: a user login page that allows the end user to access a list of clients by id and name. Requirements:  User cannot access client list until logged in. 
 Requirements:  User cannot access client list until logged in.  
