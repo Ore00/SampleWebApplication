@@ -21,6 +21,6 @@ Steps to Run App:
 4. Run Application: 
     http://localhost/ProjectFolderName/index.php
 5. Default Settings:
-    username: Your Monkedia Email (for example: emailaddress@mycompany.com)
+    username: Your Company Email (for example: emailaddress@mycompany.com)
     password: CompanyName
 
