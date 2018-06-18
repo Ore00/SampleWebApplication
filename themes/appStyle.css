@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 6, 2018, 5:45:21 PM
+    Author     : Linda McGraw
+Project Details:
+Create a sample Web Application.  It does not have to be hosted anywhere, just zipped up PHP/HTML/SQL files is fine.
+Goal:  Create a user login page that allows the end user to access a list of clients by id and name.
+Requirements:  User cannot access client list until logged in.  Provide all source code and SQL exports / schema.
+Technologies:  HTML5, jQuery, Bootstrap, PHP5, and MySQL
+*/
+
+body{
+  background-color: #FFFFFF;   
+  color: #000000;
+  margin-top: 1px;   
+  ;
+}
+.container{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+.container-fluid{
+    margin-left: 5%;
+  margin-right: 5%
+}
+
+legend {   
+    font-weight: 100;
+    text-transform: capitalize;
+    color: inherit;    
+    align: left;
+    border-style: none;
+    border-width: 0;
+    width: auto;
+    padding: 0;    
+}
+fieldset{
+    display: block;    
+    font-size: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:inherit;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    border: 2px solid #CCCCCC;    
+     border-radius: 25px;
+}
+input[type=text]{
+    margin-left: 2px;
+}
+label{
+    padding: 2px;
+}
+footer{
+background-color: #000000;   
+position:  fixed;
+width: 100%;
+bottom: 0;
+color: #FFBF00;
+border: 2px solid #111111;
+text-align: center;
+}
+.button{
+  background-color: #FFBF00; 
+  color: #000000;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #FFBF00;   
+  background-color: #FFFFFF;  
+}
+.app_logo{
+ width: 150px;
+ height: 50px; 
+ border: 0px;
+}
+.form-control {
+  font-family: "FontAwesome";
+}
+div.container {
+        width: 100%;
+    }
+#DataList{
+  width: 100%;      
+    }    
+#loginFieldset{
+    max-width:500px;
+    min-width: 300px;    
+}
+#form_status{
+    max-width: 500px;
+    min-width: 300px;  
+}
+.pagination > li.active>a{
+    border-color: #CCCCCC !important;
+    background: #FFBF00 !important;
+    color: #000000 !important;
+}
+.pagination li{
+    border-color: #CCCCCC !important;
+    background: #FFBF00 !important;
+    color: #000000 !important;
+}
+.pagination li.active a{
+    border-color: #CCCCCC !important;
+    background: #FFBF00 !important;
+    color: #000000 !important;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover, 
+.pagination > li > span:focus, 
+.pagination > li > span:hoover {
+    border-color: #CCCCCC !important;
+    background-color: #FFBF00 !important;
+    color: #000000 !important;
+}
+ul.pagination > li > a:focus,
+ul.pagination > li > a:hover, 
+ul.pagination > li > span:focus, 
+ul.pagination > li > span:hoover {
+    border-color: #CCCCCC !important;
+    background-color: #FFBF00 !important;
+    color: #000000 !important;
+}
+.pagination li:hoover:not(.active) a{
+    background-color: #CCCCCC !important;
+}
+
+
