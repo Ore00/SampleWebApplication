@@ -7,5 +7,5 @@
  */
 $dbname = "monkedia_db";
 $dbuser = "root";
-$dbpwd = "m*0329*75*";
+$dbpwd = "enter_your_password";
 $host = "localhost";
