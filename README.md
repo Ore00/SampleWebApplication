@@ -19,7 +19,7 @@ Steps to Run App:
 3. Update Database settings to match your database within file: includes: db_config
    Default settings are loaded
 4. Run Application: 
-    http://localhost/MonkediaProject/index.php
+    http://localhost/ProjectFolderName/index.php
 5. Default Settings:
     username: Your Monkedia Email (for example: amanda.harrison@monkedia.com or kyra.jacob@monkedia.com)
     password: Monkedia
