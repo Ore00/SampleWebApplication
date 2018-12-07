@@ -1,4 +1,4 @@
-# Sample Web Application
+# Contact List
 Create a sample Web Application.  
 Goal: a user login page that allows the end user to access a list of clients by id and name. Requirements:  User cannot access client list until logged in. 
 Requirements:  User cannot access client list until logged in.  
@@ -14,7 +14,7 @@ PROJECT LIMITATIONS:
 
 Steps to Run App: 
 
-1. Unzip file: MonkediaProject.zip
+1. Unzip file: Contact_List.zip
 2. Locate the Database file & import the script using your MySQL IDE: Setup/monkediadb.sql
 3. Update Database settings to match your database within file: includes: db_config
    Default settings are loaded
